@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Import materialize.css-->
+     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+     <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study</title>
+</head>
+<body class="grey lighten-5">
+    <!-- navbar -->
+      <nav class="white">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo grey-text text-darken-4">AyoBaca</a>
+                <ul class="right hide-on-med-and-down">
+                  <li><a href="index.html" class="grey-text text-darken-4">Home</a></li>
+                  <li><a href="#" class="grey-text text-darken-4">Read</a></li>
+                  <!-- Dropdown Trigger -->
+                  <li><a class="dropdown-trigger grey-text text-darken-4" href="#!" data-target="dropdown1">Totorial<i class="material-icons right grey-text text-darken-4">
+                      arrow_drop_down</i></a></li>
+                </ul>
+              </div>
+            </nav>
+            <ul id="dropdown1" class="dropdown-content">
+              <li><a href="#!">HTML</a></li>
+              <li><a href="#!">CSS</a></li>
+              <li><a href="#!">python</a></li>
+            </ul>
+        </div>
+
+    <!-- Header -->
+    <!-- <div class="container">
+        <div class="col m12 s12">
+          <div class="jumbotron">
+            <h2 class="center">Study</h2>
+            <h5 class="light center">selamat belajar di web AyoBaca, silahkan pilih referensi teman tean dibawah</h5>
+          </div>
+        </div>
+    </div> -->
+
+   <section>
+      <div class="container container-tolong">
+      <div class="row">
+        <div class="col s12 m12">
+          <div class="card-panel white">
+            <span class="black">
+                <!-- Header -->
+                <h2 class="center">Study</h2>
+                <h5 class="light center">selamat belajar di web AyoBaca, silahkan pilih materi sesuai minat teman-teman</h5>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      
+        <div class="row">
+          <a href="#">
+          <div class="col m4 s12">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img src="image/13.png ">
+                <span class="card-title">Card Title</span>
+              </div>
+            </div>
+          </div>
+          </a>
+          <a href="#">
+            <div class="col m4 s12">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img src="image/1.jpg">
+                  <span class="card-title">Card Title</span>
+                </div>
+              </div>
+            </div>
+            </a>
+            <a href="#">
+              <div class="col m4 s12">
+                <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img src="image/1.jpg">
+                    <span class="card-title">Card Title</span>
+                  </div>
+                </div>
+              </div>
+              </a>
+        </div>
+      
+      
+    </div>
+   </section>
+   
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        const dropDown = document.querySelectorAll('.dropdown-trigger');
+          M.Dropdown.init(dropDown);
+    </script>
+</body>
+</html>
